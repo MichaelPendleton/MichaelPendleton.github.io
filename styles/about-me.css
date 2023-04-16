@@ -8,10 +8,10 @@ body {
     margin: 0;
 }
 
-.grid {
+.container {
     display: grid;
-    grid-template: 204px 484px 336px / repeat(12, 120px);
-    height: 1020px;
+    grid-template: 204px 484px 336px  / repeat(12, 120px);
+    height: 1024px;
     width: 1440px;
 }
 
@@ -54,6 +54,7 @@ a {
     width: 101px;
     height: 45px;
     left: 859px;
+    text-decoration: underline #000000;
 }
 
 #about {
@@ -62,7 +63,6 @@ a {
     width: 103px;
     height: 45px;
     left: 1007px;
-    text-decoration: underline #000000;
 }
 
 #projects {
@@ -73,26 +73,29 @@ a {
     left: 1157px;
 }
 
-#profile {
-    display: grid;
-    grid-column: 3 span 3;
+main {
     grid-row: 2;
-    align-items: center;
+    height: 820px;
+    width: 1440px;
+}
+
+#profile {
     position: absolute;
     width: 293px;
     height: 352px;
-    top: 336px;
-    left: 245px;
+    margin-top: 288px;
+    left: 240px;
     border: 5px solid #000000;
     border-radius: 200px;
 }
 
 #linkedin-logo {
+    grid-row: 3;
     position: absolute;
     width: 80px;
     height: 80px;
-    left: 352px;
-    top: 718px;
+    left: 360px;
+    top: 688px;
     filter: drop-shadow(0px 8px 4px rgba(0, 0, 0, 0.25));
 }
 
