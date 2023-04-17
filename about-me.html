@@ -8,16 +8,30 @@
     <link rel="stylesheet" href="styles/about-me.css">
 </head>
 <body>
-    <div class="container">
-        <header>
+    <div class="grid">
+        <nav>
             <h2>MCPendleton</h2>
-            <a id="home" href="index.html"><h1>Home</h1></a>
-            <a id="about" href="about-me.html"><h1>About</h1></a>
-            <a id="projects" href="projects.html"><h1>Projects</h1></a>
-        </header>
+            <ul>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a class="active" href="about-me.html">About</a></li>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+        <aside>
+            <img id="profile" src="images/photos/profile_picture.jpg" alt="Michael Pendleton" height="352" width="293">
+            <a id="linkedin" href="https://www.linkedin.com/in/michael-pendleton-094693253/">
+                <img id="linkedin-logo" src="images/logos/LI-In-Bug.png" alt="LinkedIn Logo" height="60" width="60">
+            </a>
+            </ul>
+        </aside>
         <main>
-            <img id="profile" src="images/photos/profile_picture.jpg" alt="Michael Pendleton">
-            <a id="linkedin" href="https://www.linkedin.com/in/michael-pendleton-094693253/"><img id="linkedin-logo" src="images/logos/LI-In-Bug.png" alt="LinkedIn Logo"></a>
+            <ul>
+                <li id="bio"><b>Bio:</b> Hello my name is Michael Pendleton and I an aspiring software engineer. 
+                    I am currently a second year engineering student at California Baptist University. 
+                    I am majoring in Software Engineering and minoring in Computer Science and Leadership Studies. 
+                    Outside of studies I am a diehard Angels baseball fan, 80s music listener, movie line quoter,
+                    model train lover, and Warhammer 40k Collector.</li>
+                <li id="skills"><b>Skills:</b> Java, C++, Python, HTML, CSS, SQL, Visual Studio Code, IntelliJ, Github, Figma, Azure DevOps, MySQL, and more!</li>
         </main>
     </div>
 </body>
