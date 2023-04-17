@@ -48,7 +48,7 @@ nav > ul {
 nav > ul > li {
     display: inline;
     float: right;
-    padding: 1.5em 2em;
+    padding: 1.5em;
     bottom: 4em;
     position: relative;
     font-size: 2em;
